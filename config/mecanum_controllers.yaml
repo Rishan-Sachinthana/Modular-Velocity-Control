@@ -1,0 +1,14 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50
+    mecanum_controller:
+      type: mecanum_drive_controller/MecanumDriveController
+      left_front_wheel: front_left_wheel_joint
+      right_front_wheel: front_right_wheel_joint
+      left_rear_wheel: rear_left_wheel_joint
+      right_rear_wheel: rear_right_wheel_joint
+      publish_rate: 50
+      base_frame_id: base_link
+      wheel_radius: 0.05
+      wheel_separation_width: 0.3
+      wheel_separation_length: 0.3
